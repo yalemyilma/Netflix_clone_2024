@@ -1,13 +1,20 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  @import url('https://www.google.com/search?client=ms-google-coop&sca_esv=7f4d63b2d1c82616&cx=005326727925058575645:u2hfjb_gpuk&q=url(%27https://fonts.googleapis.com/css2?family%3DInter:Wght@100;200;300;400;500;+600;700;800;900+family%3DLexend:Weight@100;200;300;400;500;600;700;800;900+%26display%3DSWap%27)&spell=1&sa=X&ved=2ahUKEwiyuKDVuvGEAxVkgP0HHU0jD-AQBSgAegQICBAC');
+  :root {
+    --font-base:'Lexend',sans-serif;;
+    --font-second-base:'Inter',sans-serif;;
+    --bg-color:#111;
+    --primary-color:#ffffff
+    --secondary-color:#e50914;
+
+    /* https://www.googleapis.com/webfonts/v1/webfonts?key=AIzaSyAupMYaIL1crpMVcI4L3UUJQW4tzqVEl5c */
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
 }
